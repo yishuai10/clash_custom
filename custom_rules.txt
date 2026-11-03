@@ -1,0 +1,21 @@
+# 自定义规则 (classical 格式)
+# 规则源: https://github.com/yishuai10/clash_custom
+# 客户端引用(rule-provider):
+#   yishuai10-custom: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yishuai10/clash_custom/main/custom_rules.txt", path: ./ruleset/yishuai10-custom.txt, interval: 86400, format: text}
+# 策略组名必须与主配置一致: 🚀 节点选择 / ⚡ 自动选择 / 🤖 AI 服务 / 📹 油管视频 / 🔍 谷歌服务 / Ⓜ️ 微软服务 / 🍏 苹果服务 / 📲 电报消息 / 🐱 代码托管 / 🌍 非中国 / 🐟 漏网之鱼
+# 支持: DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD / IP-CIDR / PROCESS-NAME / GEOSITE / GEOIP 等
+
+DOMAIN-SUFFIX,subboost.org,🚀 节点选择
+DOMAIN-SUFFIX,cursor.sh,🚀 节点选择
+DOMAIN-SUFFIX,cursor.com,🚀 节点选择
+DOMAIN-SUFFIX,xlog.app,🚀 节点选择
+DOMAIN-SUFFIX,junclikrmedi.com,🚀 节点选择
+DOMAIN-SUFFIX,splunkcloud.com,🚀 节点选择
+DOMAIN-SUFFIX,notion.site,🚀 节点选择
+DOMAIN-SUFFIX,v2rayssr.com,🚀 节点选择
+DOMAIN-SUFFIX,cloudflare.com,⚡ 自动选择
+DOMAIN-SUFFIX,ldstatic.com,⚡ 自动选择
+DOMAIN-SUFFIX,cloudflareinsights.com,⚡ 自动选择
+DOMAIN-SUFFIX,ckey.run,⚡ 自动选择
+DOMAIN-SUFFIX,linux.do,🚀 节点选择
+DOMAIN-SUFFIX,greasyfork.org,🚀 节点选择
