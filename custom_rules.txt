@@ -2,20 +2,91 @@
 # 规则源: https://github.com/yishuai10/clash_custom
 # 客户端引用(rule-provider):
 #   yishuai10-custom: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yishuai10/clash_custom/main/custom_rules.txt", path: ./ruleset/yishuai10-custom.txt, interval: 86400, format: text}
-# 策略组名必须与主配置一致: 🚀 节点选择 / ⚡ 自动选择 / 🤖 AI 服务 / 📹 油管视频 / 🔍 谷歌服务 / Ⓜ️ 微软服务 / 🍏 苹果服务 / 📲 电报消息 / 🐱 代码托管 / 🌍 非中国 / 🐟 漏网之鱼
-# 支持: DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD / IP-CIDR / PROCESS-NAME / GEOSITE / GEOIP 等
+# 策略组名必须与主配置一致:
+#   🚀 节点选择 / ⚡ 自动选择 / 🛑 广告拦截 / 🤖 AI 服务 / 📹 油管视频 / 🔍 谷歌服务
+#   Ⓜ️ 微软服务 / 🍏 苹果服务 / 📲 电报消息 / 🐱 代码托管 / 🌍 非中国 / 🐟 漏网之鱼
+#   🇹🇼 台湾 / 🇺🇸 美国 / 🇭🇰 香港 / 🇸🇬 新加坡 / 🏠 私有网络 / 🔒 国内服务
+#
+# 映射说明(旧模板组名 → 当前组名):
+#   Google→🔍 谷歌服务  Proxy→🚀 节点选择  Netflix→🚀 节点选择
+#   TW台湾→🇹🇼 台湾  US美国→🇺🇸 美国  HK香港→🇭🇰 香港  SG新加坡→🇸🇬 新加坡
+#   Telegram→📲 电报消息  YouTube→📹 油管视频  DIRECT→DIRECT
 
+# ===== 通用 =====
 DOMAIN-SUFFIX,subboost.org,🚀 节点选择
-DOMAIN-SUFFIX,cursor.sh,🚀 节点选择
-DOMAIN-SUFFIX,cursor.com,🚀 节点选择
 DOMAIN-SUFFIX,xlog.app,🚀 节点选择
 DOMAIN-SUFFIX,junclikrmedi.com,🚀 节点选择
 DOMAIN-SUFFIX,splunkcloud.com,🚀 节点选择
 DOMAIN-SUFFIX,notion.site,🚀 节点选择
 DOMAIN-SUFFIX,v2rayssr.com,🚀 节点选择
+DOMAIN-SUFFIX,greasyfork.org,🚀 节点选择
 DOMAIN-SUFFIX,cloudflare.com,⚡ 自动选择
 DOMAIN-SUFFIX,ldstatic.com,⚡ 自动选择
 DOMAIN-SUFFIX,cloudflareinsights.com,⚡ 自动选择
 DOMAIN-SUFFIX,ckey.run,⚡ 自动选择
-DOMAIN-SUFFIX,linux.do,🚀 节点选择
-DOMAIN-SUFFIX,greasyfork.org,🚀 节点选择
+DOMAIN-SUFFIX,linux.do,DIRECT
+
+# ===== AI 服务 =====
+DOMAIN-SUFFIX,grok.com,🇺🇸 美国
+DOMAIN-SUFFIX,x.ai,📲 电报消息
+DOMAIN-SUFFIX,chatgpt.com,🇺🇸 美国
+DOMAIN-SUFFIX,openai.com,🇺🇸 美国
+DOMAIN-SUFFIX,is.gd,🇺🇸 美国
+DOMAIN-SUFFIX,initapi.ai,🔍 谷歌服务
+DOMAIN-SUFFIX,huangguoai.com,🚀 节点选择
+DOMAIN-SUFFIX,cursor.com,🇺🇸 美国
+DOMAIN-SUFFIX,cursor.sh,🇺🇸 美国
+DOMAIN-SUFFIX,huggingface.co,🇺🇸 美国
+DOMAIN-SUFFIX,gdstudio.xyz,🔍 谷歌服务
+DOMAIN-SUFFIX,kelee.one,🚀 节点选择
+DOMAIN-SUFFIX,script.hub,🔍 谷歌服务
+
+# ===== 交易所 / 钱包 =====
+DOMAIN-SUFFIX,bybit.com,🇹🇼 台湾
+DOMAIN-SUFFIX,bybit.biz,🇹🇼 台湾
+DOMAIN-SUFFIX,bitkeep.com,🚀 节点选择
+DOMAIN-SUFFIX,bitget.com,🔍 谷歌服务
+DOMAIN-SUFFIX,okx.com,🔍 谷歌服务
+DOMAIN-SUFFIX,binance.com,📲 电报消息
+DOMAIN-SUFFIX,kraken.com,🇺🇸 美国
+DOMAIN-SUFFIX,wise.com,🇭🇰 香港
+DOMAIN-SUFFIX,walletconnect.org,🇭🇰 香港
+DOMAIN-SUFFIX,vault.bitwarden.com,🇭🇰 香港
+DOMAIN-SUFFIX,api.bitwarden.com,🇸🇬 新加坡
+DOMAIN-SUFFIX,identity.bitwarden.com,🇸🇬 新加坡
+
+# ===== 流媒体 / 资源 =====
+DOMAIN-KEYWORD,netflix,🚀 节点选择
+DOMAIN-KEYWORD,youtube,📹 油管视频
+DOMAIN-SUFFIX,mypikpak.com,🔍 谷歌服务
+DOMAIN-SUFFIX,pikpak.io,🔍 谷歌服务
+DOMAIN-SUFFIX,catbox.moe,🔍 谷歌服务
+DOMAIN-KEYWORD,bilibili,DIRECT
+DOMAIN-SUFFIX,yfsp.tv,🇺🇸 美国
+DOMAIN-SUFFIX,iyf.tv,🇺🇸 美国
+DOMAIN,log-boot.tiktokv.com,📹 油管视频
+DOMAIN,txvlog.com,🚀 节点选择
+DOMAIN-SUFFIX,shopee.tw,🇹🇼 台湾
+
+# ===== 站点杂项 =====
+DOMAIN-SUFFIX,bybdc6.com,🔍 谷歌服务
+DOMAIN-SUFFIX,byabcde.com,🔍 谷歌服务
+DOMAIN-SUFFIX,byapps.net,🔍 谷歌服务
+DOMAIN-SUFFIX,langge.uk,🔍 谷歌服务
+DOMAIN-SUFFIX,nodeseek.com,🔍 谷歌服务
+DOMAIN-SUFFIX,szgps.cc,🔍 谷歌服务
+DOMAIN-SUFFIX,ikuuu888.com,🔍 谷歌服务
+DOMAIN-SUFFIX,reddit.com,🔍 谷歌服务
+DOMAIN-SUFFIX,www.qbittorrent.org,🔍 谷歌服务
+DOMAIN-SUFFIX,xsus.bid,🔍 谷歌服务
+DOMAIN-SUFFIX,wjkc.lol,🔍 谷歌服务
+DOMAIN-SUFFIX,xn--66tw07h.com,🔍 谷歌服务
+DOMAIN-SUFFIX,s1.ariba.com,🔍 谷歌服务
+DOMAIN-SUFFIX,worthjob.zippland.com,🔍 谷歌服务
+DOMAIN-SUFFIX,cloudflare.net,🇺🇸 美国
+DOMAIN-SUFFIX,pipecdn.vip,🇺🇸 美国
+DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 美国
+
+# ===== 关键词兜底 =====
+DOMAIN-KEYWORD,google,🔍 谷歌服务
+DOMAIN-KEYWORD,qq.com,DIRECT
