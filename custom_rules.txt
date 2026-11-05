@@ -86,6 +86,8 @@ DOMAIN-SUFFIX,worthjob.zippland.com,🔍 谷歌服务
 DOMAIN-SUFFIX,cloudflare.net,🇺🇸 美国
 DOMAIN-SUFFIX,pipecdn.vip,🇺🇸 美国
 DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 美国
+DOMAIN-SUFFIX,mlgb7.com,⚡ 自动选择
+DOMAIN-SUFFIX,pipiwangcom.com,⚡ 自动选择
 
 # ===== 关键词兜底 =====
 DOMAIN-KEYWORD,google,🔍 谷歌服务
