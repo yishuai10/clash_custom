@@ -94,6 +94,7 @@ DOMAIN-SUFFIX,rainflow.foo,⚡ 自动选择
 DOMAIN-SUFFIX,osodm.com,⚡ 自动选择
 DOMAIN-SUFFIX,ldcstore.com,⚡ 自动选择
 DOMAIN-SUFFIX,qzz.io,⚡ 自动选择
+DOMAIN-SUFFIX,a-j.app,⚡ 自动选择
 
 # ===== 关键词兜底 =====
 DOMAIN-KEYWORD,google,🔍 谷歌服务
