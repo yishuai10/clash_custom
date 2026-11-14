@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,cloudflare.com,⚡ 自动选择
 DOMAIN-SUFFIX,ldstatic.com,⚡ 自动选择
 DOMAIN-SUFFIX,cloudflareinsights.com,⚡ 自动选择
 DOMAIN-SUFFIX,ckey.run,⚡ 自动选择
-DOMAIN-SUFFIX,linux.do,DIRECT
+DOMAIN-SUFFIX,linux.do,🚀 节点选择
 
 # ===== AI 服务 =====
 DOMAIN-SUFFIX,grok.com,🇺🇸 美国
