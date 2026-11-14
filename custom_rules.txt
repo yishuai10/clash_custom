@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,grok.com,🇺🇸 美国
 DOMAIN-SUFFIX,x.ai,📲 电报消息
 DOMAIN-SUFFIX,chatgpt.com,🇺🇸 美国
 DOMAIN-SUFFIX,openai.com,🇺🇸 美国
+DOMAIN-SUFFIX,oaistatic.com,🇺🇸 美国
+DOMAIN-SUFFIX,statsigapi.net,🇺🇸 美国
 DOMAIN-SUFFIX,is.gd,🇺🇸 美国
 DOMAIN-SUFFIX,initapi.ai,🔍 谷歌服务
 DOMAIN-SUFFIX,huangguoai.com,🚀 节点选择
