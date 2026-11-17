@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,huggingface.co,🇺🇸 美国
 DOMAIN-SUFFIX,gdstudio.xyz,🔍 谷歌服务
 DOMAIN-SUFFIX,kelee.one,🚀 节点选择
 DOMAIN-SUFFIX,script.hub,🔍 谷歌服务
+DOMAIN-SUFFIX,meta.com,🤖 AI 服务
 
 # ===== 交易所 / 钱包 =====
 DOMAIN-SUFFIX,bybit.com,🇹🇼 台湾
