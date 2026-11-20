@@ -54,9 +54,7 @@ DOMAIN-SUFFIX,binance.com,📲 电报消息
 DOMAIN-SUFFIX,kraken.com,🇺🇸 美国
 DOMAIN-SUFFIX,wise.com,🇭🇰 香港
 DOMAIN-SUFFIX,walletconnect.org,🇭🇰 香港
-DOMAIN-SUFFIX,vault.bitwarden.com,🇭🇰 香港
-DOMAIN-SUFFIX,api.bitwarden.com,🇸🇬 新加坡
-DOMAIN-SUFFIX,identity.bitwarden.com,🇸🇬 新加坡
+DOMAIN-SUFFIX,bitwarden.com,🚀 节点选择
 
 # ===== 流媒体 / 资源 =====
 DOMAIN-KEYWORD,netflix,🚀 节点选择
