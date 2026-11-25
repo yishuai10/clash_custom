@@ -34,6 +34,41 @@ DOMAIN-SUFFIX,whatsappbrand.com,🇭🇰 香港
 DOMAIN-SUFFIX,wa.me,🇭🇰 香港
 DOMAIN-KEYWORD,whatsapp,🇭🇰 香港
 
+# ===== 推特 / X：谷歌服务 =====
+DOMAIN-SUFFIX,ads-twitter.com,🔍 谷歌服务
+DOMAIN-SUFFIX,cms-twdigitalassets.com,🔍 谷歌服务
+DOMAIN-SUFFIX,periscope.tv,🔍 谷歌服务
+DOMAIN-SUFFIX,pscp.tv,🔍 谷歌服务
+DOMAIN-SUFFIX,t.co,🔍 谷歌服务
+DOMAIN-SUFFIX,tellapart.com,🔍 谷歌服务
+DOMAIN-SUFFIX,tweetdeck.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twimg.co,🔍 谷歌服务
+DOMAIN-SUFFIX,twimg.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twimg.org,🔍 谷歌服务
+DOMAIN-SUFFIX,twitpic.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twitter.biz,🔍 谷歌服务
+DOMAIN-SUFFIX,twitter.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twitter.jp,🔍 谷歌服务
+DOMAIN-SUFFIX,twittercommunity.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twitterflightschool.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twitterinc.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twitteroauth.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twitterstat.us,🔍 谷歌服务
+DOMAIN-SUFFIX,twtrdns.net,🔍 谷歌服务
+DOMAIN-SUFFIX,twttr.com,🔍 谷歌服务
+DOMAIN-SUFFIX,twttr.net,🔍 谷歌服务
+DOMAIN-SUFFIX,twvid.com,🔍 谷歌服务
+DOMAIN-SUFFIX,vine.co,🔍 谷歌服务
+DOMAIN-SUFFIX,x.com,🔍 谷歌服务
+DOMAIN-KEYWORD,twitter,🔍 谷歌服务
+IP-CIDR,192.133.76.0/22,🔍 谷歌服务,no-resolve
+IP-CIDR,199.59.148.0/22,🔍 谷歌服务,no-resolve
+IP-CIDR,199.96.56.0/21,🔍 谷歌服务,no-resolve
+IP-CIDR,202.160.128.0/22,🔍 谷歌服务,no-resolve
+IP-CIDR,209.237.192.0/19,🔍 谷歌服务,no-resolve
+IP-CIDR,69.195.160.0/19,🔍 谷歌服务,no-resolve
+DOMAIN-SUFFIX,twitter.map.fastly.net,🔍 谷歌服务
+
 # ===== AI 服务 =====
 DOMAIN-SUFFIX,grok.com,🇺🇸 美国
 DOMAIN-SUFFIX,x.ai,📲 电报消息
