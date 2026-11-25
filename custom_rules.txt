@@ -26,6 +26,14 @@ DOMAIN-SUFFIX,cloudflareinsights.com,⚡ 自动选择
 DOMAIN-SUFFIX,ckey.run,⚡ 自动选择
 DOMAIN-SUFFIX,linux.do,🚀 节点选择
 
+# ===== WhatsApp：香港 =====
+DOMAIN-SUFFIX,whatsapp.com,🇭🇰 香港
+DOMAIN-SUFFIX,whatsapp.net,🇭🇰 香港
+DOMAIN-SUFFIX,whatsapp.biz,🇭🇰 香港
+DOMAIN-SUFFIX,whatsappbrand.com,🇭🇰 香港
+DOMAIN-SUFFIX,wa.me,🇭🇰 香港
+DOMAIN-KEYWORD,whatsapp,🇭🇰 香港
+
 # ===== AI 服务 =====
 DOMAIN-SUFFIX,grok.com,🇺🇸 美国
 DOMAIN-SUFFIX,x.ai,📲 电报消息
